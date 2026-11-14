@@ -1,6 +1,6 @@
-# HiSAV
+# ELMA
 
-HiSAV combines spatial–audiovisual conditioning with speaker memory and recurrent history for consistent target-speech extraction from six-channel mixtures. It processes 1 s windows and emits 0.4 s per step.
+ELMA combines spatial–audiovisual conditioning with speaker memory and recurrent history for consistent target-speech extraction from six-channel mixtures. It processes 1 s windows and emits 0.4 s per step.
 
 Install the dependencies and prepare local model/data assets as described in [docs/setup.md](docs/setup.md). Set `$SAVE` to the dataset directory and `$OUTPUT` to an output directory with sufficient storage.
 
