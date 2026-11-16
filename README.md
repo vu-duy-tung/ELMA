@@ -16,6 +16,13 @@ A short window may contain too little lip motion to tell which separated voice b
 
 *Figure 4. Both candidates share the spatial-audiovisual representation and GRU weights. Each keeps its own memory state when the separator changes output order.*
 
+## Listen to the two speakers
+
+These clips use the same 12-second campus recording. Listen to the mixture first, then compare the two target voices in the second clip.
+
+- [Original mixture (MP4, 12 s)](docs/demos/mixture.mp4) — both speakers are audible together.
+- [Selected speech with 1 s windows (MP4, 24 s)](docs/demos/selected-speech-1s.mp4) — the same segment plays twice, targeting the speaker in the white shirt first and the other speaker at 0:12. This recording demonstrates the earlier SAV-BandNet prototype.
+
 ## Results reported in the paper
 
 Character error rate (CER) on the SAVE test set with **1 s windows**. Lower is better.
