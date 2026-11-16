@@ -14,6 +14,10 @@ A short window may contain too little lip motion to tell which separated voice b
 2. **Explicit target localization.** During training, the localizer predicts the visible speaker’s direction from multichannel audio and mouth video. At inference, the stream selector uses the learned spatial-audiovisual representation directly. Both candidates share this representation.
 3. **Stream selection with temporal memory.** ELMA aligns the two separator outputs across adjacent windows and maintains a separate recurrent state for each candidate. Each update combines the shared representation with the candidate’s speaker embedding and its audiovisual match score. The selector returns the candidate with the higher corrected score for the current output interval.
 
+![Figure 4. Speaker A moves from output 1 to output 2 between adjacent windows. Its temporal memory follows the speaker, and its higher corrected score selects output 2.](docs/figures/elma-stream-selector.png)
+
+*Figure 4. Both candidates share the spatial-audiovisual representation and GRU weights. Each keeps its own memory state when the separator changes output order.*
+
 ## Results reported in the paper
 
 Character error rate (CER) on the SAVE test set with **1 s windows**. Lower is better.
