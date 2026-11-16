@@ -18,12 +18,20 @@ A short window may contain too little lip motion to tell which separated voice b
 
 ## Listen to the two speakers
 
-To play both clips on one page, download the [standalone demo player](docs/demos/player.html) and open it in a browser. Both clips are included in the file.
+Both videos use the same 12-second campus recording. Listen to the mixture first, then compare the two target voices in the second video.
 
-These clips use the same 12-second campus recording. Listen to the mixture first, then compare the two target voices in the second clip.
+**Original mixture · 12 s**
 
-- [Original mixture (MP4, 12 s)](docs/demos/mixture.mp4) — both speakers are audible together.
-- [Selected speech with 1 s windows (MP4, 24 s)](docs/demos/selected-speech-1s.mp4) — the same segment plays twice, targeting the speaker in the white shirt first and the other speaker at 0:12. This recording demonstrates the earlier SAV-BandNet prototype.
+Both speakers are audible together.
+
+<video controls playsinline preload="none" width="640" aria-label="Original mixture" src="https://anonymous.4open.science/api/repo/ELMA/file/docs/demos/mixture.mp4"></video>
+
+**Selected speech · 1 s windows · 24 s**
+
+The earlier SAV-BandNet prototype targets the speaker in the white shirt first, then the other speaker at 0:12.
+
+<video controls playsinline preload="none" width="640" aria-label="Selected speech with one-second windows" src="https://anonymous.4open.science/api/repo/ELMA/file/docs/demos/selected-speech-1s.mp4"></video>
+
 
 ## Results reported in the paper
 
