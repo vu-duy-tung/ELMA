@@ -1,6 +1,4 @@
-# ELMA
-
-**Explicit Localization and Memory for Audiovisual Separation**
+# ELMA: **E**xplicit **L**ocalization and **M**emory for **A**udiovisual speech separation
 
 Implementation accompanying *When Short Visual Context Is Ambiguous: Explicit Localization and Temporal Memory for Low-Latency Speech Separation*.
 
